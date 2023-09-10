@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body, p{
+  font-family: 'Montserrat', sans-serif;
+  
+  animation: fadein 2s;
+}
+.page-container {
+  width: 100%;
+  padding: 3.4%;
+  height: auto;
+}
+.name-container {
+  width:95%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+.description{
+  color: #484545;
+    font-size: 148.50%;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top:-5px;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+h1 {
+  font-size: 590%;
+  font-weight: 500;
+  margin-block-end: 0.2em;
+  margin-block-start: 0em;
+  text-transform: uppercase;
+  margin-left: -0.3em;
+  color: #948E8E;
+  animation:fadein 2s;
+}
+.button-container{
+  float:right;
+  margin-top: 50px;
+  margin-right: 25%;
+}
+.work-experience h3, .right-sidebar h3 {
+    
+    text-transform: uppercase;
+    color: #948E8E;
+    line-height: 1.1;
+    font-size: 140%;
+    font-weight: 500;
+    margin-bottom:5%;
+    margin-top:20x;
+}
+.more-info{
+  width:100%;
+display:flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+.expanded-paragraph{
+  font-size:78%;
+  color: #66676B;
+  margin-top:2.5%;
+  margin-bottom:0.5%;
+  padding:0;
+}
+.expanded-info{
+  
+  animation: fadein 2s;
+}
+.more-info p{
+  font-size:78%;
+  color: #66676B;
+  margin-top:2.5%;
+  margin-bottom:0.5%;
+  padding:0;
+}
+.underline{
+  color: #E5E5E5;
+    margin-top: 0.2%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width:100%;
+}
+.job-header{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding:0;
+}
+.job-info{
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-direction:column;
+}
+.jobs{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+.h4 {
+  color: #484545;
+    font-size: 94.5%;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.img{
+  width:10px;
+  height:10px;
+  margin-bottom:1%;
+  background-image: url('add.png');
+  cursor:pointer;
+}
+.print {
+  border-width: 0;
+  font-weight: 600;
+  color: white;
+  background-color: #948E8E;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  width: 100px;
+  height: 40px;
+  font-size:13px;
+  border: none !important; /* Uklonite border */
+  outline: none;
+  position: fixed;
+  top: 16%; 
+  right: 20%; 
+  z-index: 9999; 
+}
+
+.job-header h4 {
+  margin:0;
+  font-size:94%;
+}
+.add-info{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.work-experience{
+  width:70%;
+  height:auto;
+  margin-bottom: 4%;
+  margin-right: 5.949%;
+}
+.lower-content{
+  width:90%;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding-top:30px;
+}
+.jobs li{
+  margin-top:5%;
+  margin-bottom:5%;
+}
+.date {
+  font-weight: normal;
+    font-size: 72%;
+    line-height: 1.1;
+    margin-left:5px;
+}
+#email {
+  margin-top: 13%;
+  margin-bottom: 2%;
+  color: #484545;
+  font-weight: 600;
+
+}
+#number{
+  margin-bottom:15%;
+  margin-top:2%;
+  color: #484545;
+  font-weight: 500;
+
+}
+.right-sidebar{
+  width:30%;
+  height:auto;
+}
+@media only screen and (max-width: 360px) {
+  .name-surname {
+    font-size: 3rem;
+  }
+}
